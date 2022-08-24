@@ -1,0 +1,8 @@
+.todo-item {
+  display: flex;
+}
+
+.todo-item-input {
+  font-size: 2em;
+  width: 100%;
+}

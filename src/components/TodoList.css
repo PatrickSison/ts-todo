@@ -1,0 +1,21 @@
+.todo-list-item {
+  display: flex;
+}
+
+.todo-list-item > * {
+  margin: 20px;
+}
+
+.todo-list-item > div:first-child {
+  flex-grow: 1;
+}
+
+.remove-button {
+  background-color: #be2626;
+  height: max-content;
+}
+
+.remove-button:hover,
+.remove-button:focus {
+  background-color: #831c1c;
+}
